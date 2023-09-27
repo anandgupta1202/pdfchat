@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pdfchat"
+version = "0.1.0"
+description = ""
+authors = ["anandgupta1202 <anand.gupta1202@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pandas = "^2.1.1"
+chromadb = "^0.4.13"
+langchain = "^0.0.302"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
